@@ -15,3 +15,7 @@ This says that it can be quite tedious to commit outputs of code cells:
 "However, those cell outputs can be very annoying when using a version control system like e.g. Git. Whenever a change is made to a code cell, most likely the cell’s output will also change. The problem is that both changes will be shown in a “diff” view, but the (often much larger) changes in outputs will distract from the much more interesting changes in the code. This can make it very tedious to work on a notebook with multiple people."
 
 But suggests a workaround that I can try to implement, creating a dev branch where we develop the notebooks, and a separate branch where we can commit notebooks with outputs displayed. 
+
+These links may also be helpful:
+https://reproducible-science-curriculum.github.io/sharing-RR-Jupyter/01-sharing-github/
+https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository

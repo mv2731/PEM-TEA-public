@@ -18,4 +18,5 @@ But suggests a workaround that I can try to implement, creating a dev branch whe
 
 These links may also be helpful:
 https://reproducible-science-curriculum.github.io/sharing-RR-Jupyter/01-sharing-github/
+
 https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository

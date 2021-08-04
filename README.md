@@ -9,4 +9,4 @@ In Mode 1A the electrolyzer runs at constant current density (Jop) of 1.7 A cm-2
 
 In Mode 3, the electrolyzer Jop can, at any hour, operate at any current density between 0.1 and 6 A cm-2 that results in the lowest marginal LCOH.
 
-**Boxplots and Histograms**: this code allows the user to generate boxplots and histograms of each of the .csv datasources.
+**Boxplots and Histograms**: this code allows the user to generate boxplots and histograms with all five datasets shown in Supplemental Fig. 1 using each of the .csv datasources.

@@ -2,9 +2,9 @@
 Techno-economic analysis of the levelized cost of hydrogen (LCOH) from a proton exchange membrane electrolyzer. 
 
 **Directory Structure**: 
-The "Code" folder contains a folder titled "Mode 3 Individual Files", which contains a folder for each dataset. Since Mode 3 is time-intensive, each of the 8 modified LMPs, ranging from $0.00 per kWh to $0.07 per kWh, have been separated into individual python files with shell scripts to run on a high performance computing infrastructure. The number at the end of the python title indicates the mean price of the LMP dataset (e.g. "caiso2030_0.py" is the code for the CAISO 2030 dataset with a modified LMP mean of $0.00 per kWh).
+The "Code" folder has a sub-folder titled "Mode 3 Individual Files", which contains a folder in which to run Mode 3 for each dataset. Since Mode 3 is time-intensive, each of the 8 modified LMPs, ranging from $0.00 per kWh to $0.07 per kWh, have been separated into individual python files with shell scripts to run on a high performance computing infrastructure. The number at the end of the python title indicates the mean price of the LMP dataset (e.g. "caiso2030_0.py" is the code for the CAISO 2030 dataset with a modified LMP mean of $0.00 per kWh).
 
-The "Code" folder includes Modes 1A-2B as both .ipynb and .py files. The "Code" folder includes boxplots and histograms as a .ipynb file. The "Source Data" folder contains the .csv files for each of the five original LMP datasets.
+The "Code" folder also includes Modes 1A-2B as both .ipynb and .py files. The "Code" folder includes boxplots and histograms as a .ipynb file. The "Source Data" folder contains the .csv files for each of the five original LMP datasets.
 
 **Modes 1A-2B**: this code allows the user to input a .csv datasource of one year of historical electricity prices ("locational marginal prices", LMPs), generate mean-varied "modified LMPs" and calculate a LCOH for Modes 1A, 1B, 2A, and 2B for each modified LMP.
 

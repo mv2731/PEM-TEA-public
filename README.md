@@ -14,4 +14,4 @@ In Mode 3, the electrolyzer Jop can, at any hour, operate at any current density
 
 **Boxplots and Histograms**: this code allows the user to generate boxplots and histograms with all five datasets shown in Supplemental Fig. 1 using each of the .csv datasources.
 
-**Optimal Jop Distribution**: this code allows the user to generate boxplots of the optimal current density for ERCOT 2020 and CAISO 2020. 
+**Optimal Jop Distribution**: this code allows the user to generate boxplots of the optimal current density for ERCOT 2020 and CAISO 2020 given a .csv with columns of hourly optimal Jop by average electricity price. 
